@@ -1,0 +1,22 @@
+[
+{"title": "F", "link": "i", "desc": "r"},
+{"title": "B", "link": "a", "desc": "s"},
+{"title": "B", "link": "u", "desc": "i"},
+{"title": "S", "link": "o", "desc": "l"},
+{"title": "E", "link": "x", "desc": "t"},
+{"title": "A", "link": "l", "desc": "l"}
+][
+{"title": "First steps", "link": "First steps", "desc": "First steps"},
+{"title": "Basic concepts", "link": "Basic concepts", "desc": "Basic concepts"},
+{"title": "Built-in services", "link": "Built-in services", "desc": "Built-in services"},
+{"title": "Solving specific problems", "link": "Solving specific problems", "desc": "Solving specific problems"},
+{"title": "Extending Scrapy", "link": "Extending Scrapy", "desc": "Extending Scrapy"},
+{"title": "All the rest", "link": "All the rest", "desc": "All the rest"}
+][
+{"title": "First steps"},
+{"title": "Basic concepts"},
+{"title": "Built-in services"},
+{"title": "Solving specific problems"},
+{"title": "Extending Scrapy"},
+{"title": "All the rest"}
+]
