@@ -1,11 +1,16 @@
 # -*- coding: utf-8 -*-
 
 # 工程名
-BOT_NAME = 'test'
+BOT_NAME = 'template'
+SCRAPY_NAME = 'template'
 
 # 爬虫位置
-SPIDER_MODULES = ['test.spiders']
-NEWSPIDER_MODULE = 'test.spiders'
+SPIDER_MODULES = ['template.spiders']
+NEWSPIDER_MODULE = 'template.spiders'
+
+# 项目基本配置
+# ALLOWED_DOMAINS = ""
+# BASE_URL = ""
 
 # chrome://version/  查看用户代理信息，模拟浏览器发送请求
 #USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
@@ -32,7 +37,7 @@ ROBOTSTXT_OBEY = True
 #MONGO_PSW = "123456"
 
 # 项目中pipeline的路径及其启动顺序，会对每一个item在pipeline中执行
-#ITEM_PIPELINES = {'test.pipelines.testPipeline': 300}
+#ITEM_PIPELINES = {'template.pipelines.testPipeline': 300}
 
 # --------------------  分隔符  ------------------------------------
 

@@ -5,10 +5,11 @@
 
 import scrapy
 from lxml import etree
+from scrapy.conf import settings
 from tutorial.items import DmozItem
 
 class DmozSpider(scrapy.Spider):
-    name = 'myspider'
+    name = settings['SCRAPY_NAME']
 
     def start_requests(self):
         return [scrapy.FormRequest("https://xiaojing0.com/workbench_api/manager/signin",
